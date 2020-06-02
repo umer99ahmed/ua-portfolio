@@ -1,0 +1,42 @@
+.homebox {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50rem;
+    margin: auto 0;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.links {
+
+    background-color: black;
+    box-sizing: border-box;
+    color: white;
+    /* float: right; */
+    width: 40%;
+    height: 50rem;
+    text-align: left;
+    padding: 15rem 2rem;
+
+
+}
+
+.links a {
+
+    color: white;
+}
+
+.links a:hover {
+    font-size: larger;
+    color: white;
+}
+
+.intro {
+    background-color: white;
+    box-sizing: border-box;
+    width: 60%;
+    height: 50rem;
+    text-align: center;
+    padding: 15rem 2rem;
+}
