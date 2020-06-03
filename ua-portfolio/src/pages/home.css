@@ -14,10 +14,11 @@
     box-sizing: border-box;
     color: white;
     /* float: right; */
-    width: 40%;
+    width: 30%;
     height: 50rem;
     text-align: left;
     padding: 15rem 2rem;
+    font-size: 100%;
 
 
 }
@@ -35,7 +36,7 @@
 .intro {
     background-color: white;
     box-sizing: border-box;
-    width: 60%;
+    width: 70%;
     height: 50rem;
     text-align: center;
     padding: 15rem 2rem;
@@ -44,7 +45,7 @@
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     .links {
 
         font-size: .6rem;

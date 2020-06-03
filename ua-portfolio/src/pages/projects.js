@@ -7,13 +7,7 @@ function Projects() {
 
     return (
         <div className='sectionContainer'>
-
-            <ProjectBox name="Sorting Algorithm Visualizer" image={SortingAlgo} />
-            <ProjectBox />
-            <ProjectBox />
-            <ProjectBox />
-            <ProjectBox />
-
+            <ProjectBox name="Sorting Algorithm Visualizer" image={SortingAlgo} link="https://uahmed23.github.io/sorting-algorithm-visualizer/#/" />
         </div>
     )
 }

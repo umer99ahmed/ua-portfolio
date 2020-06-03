@@ -5,12 +5,16 @@ function ProjectBox(props) {
     return (
         <div
             style={{
-                backgroundImage: `url(${props.image})`
+                backgroundImage: `url(${props.image})`,
+                backgroundColor: `${props.color}`
             }}
             className="projectBox"
         >
-            {/* <img src={props.image}></img> */}
-            < button > {props.name}</button >
+            <a className="button" target="_blank" href={props.link}>
+                {/* < button > */}
+                {props.name}
+                {/* </button > */}
+            </a>
         </div >
     )
 }

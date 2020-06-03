@@ -23,13 +23,9 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-
-
 }
 
-
-
-.projectBox>button {
+.projectBox .button {
     background-color: white;
     border-radius: 5px;
     border: 2px solid black;
@@ -43,22 +39,22 @@
     font-size: larger;
     font-weight: bolder;
     margin: 0px 4rem;
+
 }
 
-.projectBox>button:hover {
-    border: 5px solid black;
-    border-radius: 10px;
+.projectBox .button:hover {
+    /* border: 5px solid black; */
+    border-radius: 15px;
+    padding: 15px;
 }
 
-
-.projectBox>button:focus {
+.projectBox .button:focus {
     outline: none;
 }
 
 .projectBox>img {
     width: 100%;
     height: 15rem;
-
 }
 
 @media screen and (max-width: 550px) {
@@ -71,8 +67,5 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-
-
     }
-
 }
