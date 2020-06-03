@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 50rem;
+    height: 100vh;
     margin: auto 0;
     justify-content: center;
     overflow: hidden;
@@ -39,4 +39,27 @@
     height: 50rem;
     text-align: center;
     padding: 15rem 2rem;
+    cursor: default;
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .links {
+
+        font-size: .6rem;
+        padding: 15rem 10px;
+        width: 50%;
+
+        /* background-color: gold; */
+    }
+
+    .intro {
+        background-color: white;
+        box-sizing: border-box;
+        width: 50%;
+        font-size: .9rem;
+
+    }
+
 }
