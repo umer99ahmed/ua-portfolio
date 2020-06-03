@@ -33,6 +33,8 @@ header {
 
 a {
   text-decoration: none;
+  color: var(--black);
+
 }
 
 a:visited {
