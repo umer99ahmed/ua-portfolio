@@ -5,7 +5,7 @@ function Contact() {
 
     return (
         <div className='sectionContainer'>
-            email: umer@uoguelph.ca.
+            em@il: umer@uoguelph.ca.
 
         </div>
     )
