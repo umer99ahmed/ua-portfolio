@@ -5,7 +5,8 @@ function Contact() {
 
     return (
         <div className='sectionContainer'>
-            umer@uoguelph.ca
+            email: umer@uoguelph.ca
+
         </div>
     )
 }
