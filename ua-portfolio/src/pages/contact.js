@@ -5,7 +5,8 @@ function Contact() {
 
     return (
         <div className='sectionContainer'>
-            em@il: umer@uoguelph.ca.
+            umer@uoguelph.ca
+            <a target="_blank" href="https://github.com/uahmed23">github</a>
 
         </div>
     )

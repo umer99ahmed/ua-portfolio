@@ -2,20 +2,41 @@ import React from "react"
 
 function ProjectBox(props) {
 
+    const tools = props.tools.map((element, index) => {
+        return (
+            <div key={index} className="tool">
+                <h4>{element}</h4>
+            </div>)
+    })
+
+
     return (
-        <div
-            style={{
-                backgroundImage: `url(${props.image})`,
-                backgroundColor: `${props.color}`
-            }}
-            className="projectBox"
-        >
-            <a className="button" target="_blank" href={props.link}>
-                {/* < button > */}
-                {props.name}
-                {/* </button > */}
-            </a>
-        </div >
+        <>
+            <div
+                style={{
+                    backgroundImage: `url(${props.image})`,
+                    backgroundColor: `${props.color}`
+                }}
+                className="projectBox"
+            >
+                <a className="button" target="_blank" href={props.link}>
+                    {/* < button > */}
+                    {props.name}
+                    {/* </button > */}
+                </a>
+            </div >
+            <div className="projectInfo">
+                {tools}
+                <div className="gitlink">
+
+                    <a target="_blank" href={props.gitlink}>
+                        <h4>github 🡆</h4>
+                    </a>
+                </div>
+
+            </div>
+        </>
+
     )
 }
 

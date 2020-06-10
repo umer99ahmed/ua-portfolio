@@ -11,37 +11,35 @@
 
 .projectBox {
     display: flex;
+    flex-direction: column;
     /* background-image: url(../media/sortingAlgo.PNG); */
     background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-
-    margin: 20px 0px;
+    margin-top: 20px 0px;
     height: 15rem;
     width: 70%;
     text-align: center;
     justify-content: center;
     align-items: center;
+
 }
 
 
 .projectBox .button {
-    /* background-color: white; */
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
     border: 2px solid black;
+
     cursor: pointer;
     padding: 10px;
     transition: all .2s ease-in-out;
     font-family: Arial, Helvetica, sans-serif;
-    /* width: 50%; */
-    /* height: 40%; */
     font-size: 100%;
     font-size: larger;
     font-weight: bolder;
     margin: 0px 4rem;
-    /* opacity: 70%; */
 
 }
 
@@ -60,15 +58,47 @@
     height: 15rem;
 }
 
+.projectInfo {
+    display: flex;
+    background-color: white;
+    height: 4rem;
+    width: 70%;
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-top: 0px;
+    padding-left: 20px;
+
+}
+
+.gitlink {
+    width: 100%;
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+
+.tool {
+
+    margin: auto 5px;
+    cursor: default;
+}
+
 @media screen and (max-width: 550px) {
     .projectBox {
         display: flex;
         background-color: black;
-        margin: 20px 0px;
+        margin-top: 20px 0px;
         height: 10rem;
         width: 100%;
         text-align: center;
         justify-content: center;
         align-items: center;
+    }
+
+    .projectInfo {
+        background-color: snow;
+        height: 4rem;
+        width: 100%;
     }
 }
