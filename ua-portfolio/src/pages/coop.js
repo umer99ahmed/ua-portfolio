@@ -9,7 +9,7 @@ function Coop() {
 
     return (
         <div className='sectionContainer'>
-            <CoopBox name="CCS IT CONSULTANT" image={CCSpic} link="https://uahmed23.github.io/ccs-workterm-report/" color="#1E90FF" />
+            <CoopBox name="CCS STUDENT IT CONSULTANT" image={CCSpic} link="https://uahmed23.github.io/ccs-workterm-report/" color="#1E90FF" />
         </div>
     )
 }

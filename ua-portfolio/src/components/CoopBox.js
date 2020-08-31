@@ -12,7 +12,7 @@ function CoopBox(props) {
         >
             <a className="button" target="_blank" href={props.link}>
                 {props.name}
-s            </a>
+            </a>
         </div >
     )
 }

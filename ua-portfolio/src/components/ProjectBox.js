@@ -20,11 +20,12 @@ function ProjectBox(props) {
                 className="projectBox"
             >
                 <a className="button" target="_blank" href={props.link}>
-                    {/* < button > */}
                     {props.name}
-                    {/* </button > */}
                 </a>
             </div >
+            <div className='projectAbout'>
+                <p> {props.about}</p>
+            </div>
             <div className="projectInfo">
                 {tools}
                 <div className="gitlink">
