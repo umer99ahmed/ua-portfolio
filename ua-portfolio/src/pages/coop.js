@@ -1,5 +1,5 @@
 import React from "react"
-import "./sections.css"
+import "../styles/sections.css"
 import ProjectBox from "../components/CoopBox"
 import CCSpic from "../media/CCSpic.png"
 import CoopBox from "../components/CoopBox"

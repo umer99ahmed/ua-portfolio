@@ -99,7 +99,7 @@
     cursor: default;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 900px) {
     .projectBox {
         display: flex;
         background-color: black;
