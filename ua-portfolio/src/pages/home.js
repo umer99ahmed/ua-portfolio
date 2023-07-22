@@ -12,29 +12,39 @@ import "../styles/SidebarNav.css"
 import "react-typist/dist/Typist.css";
 
 function Home() {
-    const links = [<Link to="/projects">
-                        <h1>Projects</h1>
-                    </Link>,
-                    <Link to="/coop">
+    const links = [
+                    <Link to="/experience">
                         <h1>Experience</h1>
                     </Link>,
-                    <Link to="/contact">
-                        <h1>Contact</h1>
-                    </Link>]
+                    <Link to="/projects">
+                        <h1>Projects</h1>
+                    </Link>,
+                    <div className="sidebar-logos" href="/">
+                    <a href="mailto:umer99ahmed@gmail.com" target="_blank">
+                        <EmailRoundedIcon style={{ padding: 5, fontSize: 23 }}></EmailRoundedIcon>
+                    </a>
+                    <a href="https://github.com/umer99ahmed" target="_blank">
+                        <GitHubIcon style={{ padding: 5, fontSize: 22 }}></GitHubIcon>
+                    </a>
+                    <a href="https://www.linkedin.com/in/umer-ahmed/" target="_blank">
+                        <LinkedInIcon style={{ padding: 5,fontSize: 24 }}></LinkedInIcon>
+                    </a>
+                    </div>
+                ]
     return (
         <div className="homebox">
             <div className="intro">
             <FractalTree></FractalTree>
             <Typist avgTypingDelay={120}>
                 <span className="intro-title">
-                    {"Hi, "}
+                    {"Hi, I am "}
                     <span className="intro-name">{"Umer"}</span>
-                    {" here."}
+                    {"."}
                 </span>
             </Typist>
             <FadeInSection>
             <div className="intro-desc">
-                I'm a software engineer who likes building cool stuff with code.
+                a software engineer who likes building cool stuff with code.
                 I have an interest in full-stack development, artificial intelligence,
                 design, and everything in between.
             </div>
@@ -55,17 +65,7 @@ function Home() {
                         <div>{link}</div>
                     </FadeInSection>
                     ))}
-                    <div className="sidebar-logos" href="/">
-                        <a href="mailto:umer99ahmed@gmail.com" target="_blank">
-                            <EmailRoundedIcon style={{ padding: 5, fontSize: 23 }}></EmailRoundedIcon>
-                        </a>
-                        <a href="https://github.com/umer99ahmed" target="_blank">
-                            <GitHubIcon style={{ padding: 5, fontSize: 22 }}></GitHubIcon>
-                        </a>
-                        <a href="https://www.linkedin.com/in/umer-ahmed/" target="_blank">
-                            <LinkedInIcon style={{ padding: 5,fontSize: 24 }}></LinkedInIcon>
-                        </a>
-                    </div>
+                    
                 </div >
 
         </div>

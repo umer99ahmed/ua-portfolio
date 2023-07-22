@@ -17,7 +17,7 @@
     "react-p5-wrapper": "^3.4.0",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^3.4.1",
     "react-transition-group": "^4.4.1",
     "react-typist": "^2.0.5",
     "rsuite": "^4.8.2",
@@ -41,6 +41,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.2.0",
+    "typescript": "^5.1.6"
   }
 }

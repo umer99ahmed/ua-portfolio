@@ -12,7 +12,7 @@ function Projects() {
                 name="Sorting Algorithm Visualizer"
                 image={SortingAlgo}
                 about="An algorithm visualizer that displays the steps a sorting algorithm takes to find a solution."
-                link="https://uahmed23.github.io/sorting-algorithm-visualizer/#/"
+                link="https://umer99ahmed.github.io/sorting-algorithm-visualizer/#/"
                 tools={["ReactJS", "HTML/CSS"]}
                 gitlink="https://github.com/umer99ahmed/sorting-algorithm-visualizer"
             />

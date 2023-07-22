@@ -27,7 +27,7 @@
 
 
 .sidebar-logos {
-  width: 70px;
+  width: 90px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -39,38 +39,11 @@ img {
   height: 18px;
 }
 
-@media only screen and (max-width: 600px) {
-  .sidebar-nav {
-    width: 100%;
-    height: 50px;
-  }
-
-  .sidebar-links {
-    padding-left: 20px;
-    flex-direction: row;
-    text-align: right;
-    font-size: 9px;
-  }
-
-  .sidebar-logos {
-    padding-top: 0px;
-    width: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-left: 1px;
-  }
-
-  img {
-    height: 12px;
-  }
-}
 
 .links {
 
   background-color: black;
   box-sizing: border-box;
-  color: white;
   width: 30%;
   height: 100vh;
   text-align: left;
@@ -89,11 +62,11 @@ img {
 }
 
 .links a:hover {
-  /* font-size: larger; */
-  color: red;
+  font-size: larger;
+  color: whitesmoke;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .sidebar-nav {
     position: unset;
     align-items: center;
@@ -106,4 +79,30 @@ img {
 
     /* background-color: gold; */
 }
+}
+@media only screen and (max-width: 800px) {
+  .sidebar-nav {
+    width: 100%;
+    height: 50px;
+  }
+
+  .sidebar-links {
+    padding-left: 20px;
+    flex-direction: row;
+    text-align: right;
+    font-size: 9px;
+  }
+
+  .sidebar-logos {
+    padding-top: 0px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 0px;
+  }
+
+  img {
+    height: 12px;
+  }
 }

@@ -4,7 +4,7 @@ import Header from "./components/Header"
 import { Route, Switch } from "react-router-dom"
 import Home from "./pages/home"
 import Projects from "./pages/projects"
-import Coop from "./pages/coop"
+import Coop from "./pages/experience"
 import Contact from "./pages/contact"
 
 function App() {
@@ -14,20 +14,16 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/projects">
+        <Route path="/experience">
           <Header sel={1} />
-          <Projects />
-        </Route>
-        <Route path="/coop">
-          <Header sel={2} />
           <Coop />
         </Route>
-
-        <Route path="/contact">
-          <Header sel={3} />
-          <Contact />
+        <Route path="/projects">
+          <Header sel={2} />
+          <Projects />
         </Route>
       </Switch>
+      
     </div >
   );
 }
