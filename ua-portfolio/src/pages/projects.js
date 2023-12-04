@@ -14,7 +14,7 @@ function Projects() {
                 about="An algorithm visualizer that displays the steps a sorting algorithm takes to find a solution."
                 link="https://umer99ahmed.github.io/sorting-algorithm-visualizer/#/"
                 tools={["ReactJS", "HTML/CSS"]}
-                gitlink="https://github.com/umer99ahmed/sorting-algorithm-visualizer"
+                gitlink="https://github.com/umer99ahmed/sorting-algorithm-visualizer/tree/dev"
             />
             {/* <ProjectBox
                 name="Chat App"

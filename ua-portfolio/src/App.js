@@ -6,9 +6,19 @@ import Home from "./pages/home"
 import Projects from "./pages/projects"
 import Coop from "./pages/experience"
 import Contact from "./pages/contact"
+import { MuiThemeProvider, createTheme } from '@material-ui/core/styles';
+
+const theme = createTheme({
+  palette: {
+    secondary: {
+      main: '#000000'
+    }
+  }
+});
 
 function App() {
   return (
+    <MuiThemeProvider theme={theme}>
     <div className="App">
       <Switch>
         <Route exact path="/">
@@ -23,8 +33,8 @@ function App() {
           <Projects />
         </Route>
       </Switch>
-      
     </div >
+    </MuiThemeProvider>
   );
 }
 

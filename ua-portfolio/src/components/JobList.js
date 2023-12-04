@@ -68,12 +68,12 @@ function a11yProps(index) {
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
-    backgroundColor: "theme.palette.background.paper",
+    // backgroundColor: "theme.palette.background.paper",
     display: "flex",
     height: 300
   },
   tabs: {
-    borderRight: `1px solid ${theme.palette.divider}`
+    borderRight: `0px solid ${theme.palette.divider}`
   }
 }));
 
@@ -123,6 +123,7 @@ const JobList = () => {
         variant={isHorizontal ? "fullWidth" : "scrollable"}
         value={value}
         onChange={handleChange}
+        indicatorColor="secondary"
         className={classes.tabs}
       >
         {Object.keys(experienceItems).map((key, i) => (

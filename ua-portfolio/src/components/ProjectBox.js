@@ -1,4 +1,5 @@
 import React from "react"
+import GitHubIcon from "@material-ui/icons/GitHub";
 
 function ProjectBox(props) {
 
@@ -30,8 +31,8 @@ function ProjectBox(props) {
                 {tools}
                 <div className="gitlink">
 
-                    <a target="_blank" href={props.gitlink}>
-                        <h4>github 🡆</h4>
+                    <a href={props.gitlink} target="_blank">
+                        <GitHubIcon style={{ padding: 5,fontSize: 24 }}></GitHubIcon>
                     </a>
                 </div>
 

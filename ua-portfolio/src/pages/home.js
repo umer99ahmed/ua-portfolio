@@ -20,15 +20,15 @@ function Home() {
                         <h1>Projects</h1>
                     </Link>,
                     <div className="sidebar-logos" href="/">
-                    <a href="mailto:umer99ahmed@gmail.com" target="_blank">
-                        <EmailRoundedIcon style={{ padding: 5, fontSize: 23 }}></EmailRoundedIcon>
-                    </a>
-                    <a href="https://github.com/umer99ahmed" target="_blank">
-                        <GitHubIcon style={{ padding: 5, fontSize: 22 }}></GitHubIcon>
-                    </a>
-                    <a href="https://www.linkedin.com/in/umer-ahmed/" target="_blank">
-                        <LinkedInIcon style={{ padding: 5,fontSize: 24 }}></LinkedInIcon>
-                    </a>
+                        <a href="mailto:umer99ahmed@gmail.com" target="_blank">
+                            <EmailRoundedIcon style={{ padding: 5, fontSize: 23 }}></EmailRoundedIcon>
+                        </a>
+                        <a href="https://github.com/umer99ahmed" target="_blank">
+                            <GitHubIcon style={{ padding: 5, fontSize: 22 }}></GitHubIcon>
+                        </a>
+                        <a href="https://www.linkedin.com/in/umer-ahmed/" target="_blank">
+                            <LinkedInIcon style={{ padding: 5,fontSize: 24 }}></LinkedInIcon>
+                        </a>
                     </div>
                 ]
     return (

@@ -38,13 +38,13 @@
   }
   
   .PrivateTabIndicator-colorSecondary-5 {
-    background-color: var(--black) !important;
+    /* background-color: var(--black) !important; */
   }
   .jss5 {
     background-color: var(--black) !important;
   }
   .makeStyles-tabs-2 {
-    border-right: 1px solid var(--white) !important;
+    border-right: 0px solid var(--black) !important;
   }
   #experience .MuiTab-root {
     padding: 6px 20px;

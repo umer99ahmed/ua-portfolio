@@ -2,12 +2,11 @@
     display: flex;
     flex-direction: column;
     overflow: none;
-    background-color: var(--white);
-    padding: 5vh 0;
+    background-color: white;
+    padding: 10rem 0rem;
     text-align: center;
     justify-content: center;
     align-items: center;
-    height: 75vh;
 }
 
 .projectBox {
@@ -31,7 +30,7 @@
 
 .projectBox .button {
     background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 5px;
+    border-radius: 15px;
     border: 2px solid black;
 
     cursor: pointer;
@@ -46,7 +45,8 @@
 }
 
 .projectBox .button:hover {
-    border-radius: 15px;
+    /* border-radius: 15px; */
+    border-radius: 0px;
     padding: 15px;
     background-color: rgba(255, 255, 255, 1);
 }
@@ -93,14 +93,12 @@
     margin-right: 20px;
 }
 
-
-
 .tool {
     margin: auto 5px;
     cursor: default;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 550px) {
     .projectBox {
         display: flex;
         background-color: black;
@@ -122,9 +120,5 @@
         background-color: snow;
         /* height: 4rem; */
         width: 100%;
-    }
-    .sectionContainer {
-        padding: 20vh 0;
-        height: 85vh;
     }
 }
